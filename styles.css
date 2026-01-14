@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.logo-text {
+    color: #2947A9;
+    font-size: 30px;
+}
+.header-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container-left {
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.header-container-right {
+    display: flex;
+    text-align: right;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+.navigation {
+    text-decoration: none;
+    color: #14171F;
+    font-size: 18px;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 700px;
+}
