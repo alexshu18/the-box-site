@@ -37,6 +37,62 @@ body, html {
 
 .hero img {
     width: 100%; /*full size img*/
-    max-height: 700px;
+    height: auto;
+    display: block;
 }
+
+.image-text {
+    font-size: 72px;
+    font-weight: 600;
+    position: absolute;
+    top:50%;
+    left: 60px;
+    color: #292E3D;
+    transform: translateY(-50%);
+}
+
+.hero-projects {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 420px;
+    height: 150px;
+    text-align: center;
+    background-color: #3559C7;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-back, .btn-next {
+    flex: 1;
+    background-color: #292E3D;
+    width: 50%;
+    color: #ffff;
+    padding: 6px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-back {
+    border-right: 1px solid white;
+}
+
+.btn-next {
+    border-left: 1px solid white;
+}
+
+.uni-arch {
+    color: #ffff;
+    font-weight: 300;
+}
+
+.feature-projects {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
