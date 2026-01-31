@@ -181,3 +181,120 @@ body, html {
 .button-about-us:hover {
     cursor: pointer;
 }
+
+
+.services-title {
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.services {
+    background-color: #F6F8F7;
+    padding-bottom: 50px;
+}
+
+.card-holder {
+    display: grid;
+    text-align: center;
+}
+
+.construction, .consultation, .architecture {
+    background-color: #ffff;
+    color: #2947A9;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.construction img, .consultation img, .architecture img, .renovation img, .repair img, .electric img {
+    border-bottom: 3px solid #E0E3EB;
+    padding: 10px;
+}
+
+.renovation, .repair, .electric {
+    background-color: #2947A9;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 30px;
+    direction: rtl;
+}
+.stat-item {
+    direction: ltr;
+}
+
+
+.left-border-stats {
+    display: inline-block;
+    border-left: 4px solid #F9995D;
+    color: #667299;
+    padding-left: 10px;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.stat-card {
+    max-width: 250px;
+    box-shadow: 5px 5px 5px 5px #d8dbd8;
+}
+
+.number {
+    color: #292E3D;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0;
+    padding: 10px;
+}
+
+.adds {
+    position: relative;
+}
+
+.adds-image {
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+}
+
+.adds-text {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.adds-phone {
+    text-decoration: underline;
+}
+
+.call {
+    font-weight: 300;
+    font-size: 20px;
+    top: 250px;
+}
+
+.btn-consultation {
+    position: absolute;
+    color: white;
+    right: 60px;
+    top: 150px;
+    padding: 25px;
+    border: 2px solid white;
+    background-color: transparent;
+    transition: transform 0.3s;
+}
+
+.btn-consultation:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    border-radius: 6px;
+}
