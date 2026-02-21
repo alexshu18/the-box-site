@@ -226,6 +226,7 @@ body, html {
     padding-top: 30px;
     direction: rtl;
 }
+
 .stat-item {
     direction: ltr;
 }
@@ -297,4 +298,122 @@ body, html {
     cursor: pointer;
     transform: scale(1.2);
     border-radius: 6px;
+}
+
+.navigation-projects {
+    border-left: 3px solid transparent;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #C2C7D6;
+    padding-bottom: 20px;
+    width: fit-content;
+}
+
+.nav-all {
+    border-left: 3px solid #2947A9;
+    padding-left: 10px;
+    color: #2947A9;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-container-projects {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.photo-text {
+    max-width: 364px;
+    background-color: #2947A9;
+    color: #ffff;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.project-card {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.cta {
+    background-color: #F6F8F7;
+}
+
+.cta-title {
+    text-align: center;
+}
+
+.cta-text {
+    text-align: center;
+}
+
+
+.required {
+    color: red;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-padding {
+    padding-bottom: 20px;
+}
+
+.area {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btn-submit {
+    display: block;
+    background-color: #2947A9;
+    border-radius: 2px;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.footer-blue {
+    color: #2947A9;
+}
+
+.footer-right img {
+    width: 30px;
+}
+
+.last-footer {
+    background-color: #2947A9;
+    color: white;
+    height: 60px;
+}
+
+.last-footer-text {
+    margin-left: 20%;
+    padding-top: 20px;
 }
